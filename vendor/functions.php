@@ -20,7 +20,7 @@ if(isset($_POST['send'])){
     $message = htmlspecialchars(trim($_POST['senderMessage']));
 
     //Отправка почты
-    $to = 'infinitepavelk@gmail.com';
+    $to = 'ncpremote@mail.ru';
     $subject = 'New response from site';
     $mailMessage = "
         <html>
